@@ -9,7 +9,7 @@ function App() {
   const [list, setList] = useState([]);
   const [movieList, setMovieList] = useState([]);
   const [page, setPage] = useState(1);
-
+  
   const addMovie = (movie) => setList([...list, movie]);
 
   const removeMovie = (movie) => {
